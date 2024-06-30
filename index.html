@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: "Roboto", sans-serif;
+        }
+        .pdfBG {
+            background: url('MEMBERSHIP-FORM.jpg');
+            width: 816px;
+            height: 1300px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: auto;
+        }
+        .sections1 {
+            position: relative;
+            top: 275px;
+            padding: 0px 88px;
+        }
+        .sections2 {
+            position: relative;
+            top: 313px;
+            padding: 0px 88px;
+        }
+        .sections3 {
+            position: relative;
+            top: 339px;
+            padding: 0px 88px;
+        }
+        .sections4 {
+            position: relative;
+            top: 364px;
+            padding: 0px 88px;
+        }
+        .sections5 {
+            position: relative;
+            top: 386px;
+            padding: 0px 88px;
+        }
+        .textCss {
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        .memberDOB {
+            position: absolute;
+            right: 138px;
+            top: 0px;
+        }
+        .memberNickName {
+            position: absolute;
+            left: 124px;
+        }
+        .customefbAccount {
+            position: absolute;
+            left: 359px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            width: 167px;
+            top: -11px;
+            line-height: 14px;
+        }
+        .memberEmail {
+            position: absolute;
+            right: 35px;
+            font-size: 12px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            width: 118px;
+            top: -14px; 
+        }
+        .nameOfOuTreach {
+            position: absolute;
+            left: 200px;
+        }
+        .homeAddress {
+            position: relative;
+            left: 75px;
+        }
+        .civilStatus {
+            position: absolute;
+            left: 139px;
+        }
+        .memberHeight {
+            position: absolute;
+            left: 315px;
+        }
+        .memberWeight {
+            position: absolute;
+            right: 281px;
+        }
+        .memberBloodType {
+            position: absolute;
+            right: 95px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pdfBG">
+        <div class="sections1">
+            <div class="memberName textCss" id="memberName"></div>
+            <div class="memberDOB textCss" id="memberDOB"></div>
+        </div>
+        <div class="sections2">
+            <div class="memberNickName textCss" id="memberNickName"></div>
+            <div class="customefbAccount textCss" id="customefbAccount"></div>
+            <div class="memberEmail textCss" id="memberEmail"></div>
+        </div>
+        <div class="sections3">
+            <div class="nameOfOuTreach textCss" id="nameOfOuTreach"></div>
+        </div>
+        <div class="sections4">
+            <div class="homeAddress textCss" id="homeAddress"></div>
+        </div>
+        <div class="sections5">
+            <div class="civilStatus textCss" id="civilStatus"></div>
+            <div class="memberHeight textCss" id="memberHeight"></div>
+            <div class="memberWeight textCss" id="memberWeight"></div>
+            <div class="memberBloodType textCss" id="memberBloodType"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
